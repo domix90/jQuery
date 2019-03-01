@@ -13,3 +13,9 @@ box.style.display = 'none';)
 I can also use a $ sign to call jQuery function :
 
 $('.box').hide();
+
+$('.box').click(()=>{
+                
+                alert('You clicked me');
+                
+                });
