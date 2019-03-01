@@ -1,1 +1,15 @@
-jQuery is a widely used JavaScript library that helps you quickly and easily adds interactivity to web pages.
+jQuery is a widely used JavaScript library that helps you quickly and easily adds interactivity to web pages. 
+jQuery became popular in the mid-2000s, when there were a number of differences between how browsers like 
+Internet Explorer, Firefox, Chrome, and Safari handled DOM programming.
+
+I need to learn jQuery methods and jQuery specific selectors. 
+
+HOW TO CALL jQuery: 
+
+jQuery('.box').hide();
+(with plan JS it would be: let box = document.querySelector('.box');
+box.style.display = 'none';)
+
+I can also use a $ sign to call jQuery function :
+
+$('.box').hide();
