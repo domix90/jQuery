@@ -37,3 +37,19 @@ $('.element')
   .slideUp()
   
  ;
+ 
+ GETTER  VS SETTER METHODS
+ 
+ $('#Element').html();
+ $('#Element').text();
+ 
+1. The text method allows me to get, insert, or change text
+within the element I've selected
+
+2. The HTML method allows me to get
+insert, or change HTML within the element I've selected.
+
+3. Using the HTML method with no argument would
+get any value that is within the element we call it on - THATS GETTER becuase it GETs the value
+
+4. The HTML method with arguments is known as a setter because it sets a value. - THATS SETTER
