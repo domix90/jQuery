@@ -19,3 +19,21 @@ $('.box').click(()=>{
                 alert('You clicked me');
                 
                 });
+
+
+I can check different effects that jQuery provides here: 
+https://api.jquery.com/category/effects/
+
+I can CHAIN jQuery effects on a single element in the following way: 
+
+$('.element').hide().slideDown().delay().slideUp();
+
+OR
+
+$('.element')
+  .hide()
+  .slideDown()
+  .delay()
+  .slideUp()
+  
+ ;
