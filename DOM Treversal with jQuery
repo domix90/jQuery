@@ -1,0 +1,9 @@
+To access previous child of the selected DOM element I can use
+
+$('li').eq(1).prev()
+
+To access the next child of the selected DOM element I can use
+
+$('li').eq(1).next()
+
+The EQ or equals method in jQuery allows me to find an element in a set of elements by index (like in an array);
