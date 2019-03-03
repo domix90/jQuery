@@ -1,12 +1,15 @@
-First I need to create a variable with the required element. For example if I want to create a button I can do it in the following way: 
+// First I need to create a variable with the required element. For example if I want to create a button I can do it in the following way: 
 
 const $button = $('<button>This is a new button</button>');
 
-//When the element is created, we need to add it to the page.
-//When you create a new element with jQuery, it's not automatically added to the DOM,
-//and the users won't see it on a page until I add it.
-//There's another jQuery method for that and
-//it's called append, or prepend.
+// When the element is created, we need to add it to the page.
+// When you create a new element with jQuery, it's not automatically added to the DOM,
+// and the users won't see it on a page until I add it.
+// There's another jQuery method for that and
+// it's called append, or prepend.
 
-Append adds the element to the end of the parent DOM element 
-while prepend adds the element to the beginning. 
+// Append adds the element to the end of the parent DOM element 
+// while prepend adds the element to the beginning. 
+// We need to select the parent DOM element 
+
+$(.exampleDomParent).append($button);
