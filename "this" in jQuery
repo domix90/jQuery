@@ -1,0 +1,5 @@
+The this keyword in JavaScript allows me to target an event. It does the same thing as event.target (e, evt)
+What we're saying here in plain English is, this button, this particular
+element that was clicked, traverse to the element before it, and show that element.
+
+$(this).prev().show();
