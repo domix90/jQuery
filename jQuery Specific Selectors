@@ -6,3 +6,10 @@ const $secureLinks = $('a[href^="https://"]'); - ^ indicats that the element sho
 Another example 
 
 const $name = $('input[name^="hajdgajshvdjhavdhjasvhd"]');
+
+
+
+
+
+
+const $securePDF = $('a[href$="pdf"]'); - $ indicats that the element should end with 
