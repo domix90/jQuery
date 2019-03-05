@@ -9,7 +9,20 @@ const $name = $('input[name^="hajdgajshvdjhavdhjasvhd"]');
 
 
 
-
-
-
 const $securePDF = $('a[href$="pdf"]'); - $ indicats that the element should end with 
+
+
+
+--------------------------------------
+
+By adding the following attributes I can make the new link open in a new tab
+
+$secureLinks.attr('target', '_blank');
+
+By adding this attribute I can make a link on a click downloadable 
+
+$securePDF.attr('download', true);
+
+By adding the following attribute I can make a link disabled: 
+
+$securePDF.attr('disabled', true);
