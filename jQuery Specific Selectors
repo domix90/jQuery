@@ -26,3 +26,17 @@ $securePDF.attr('download', true);
 By adding the following attribute I can make a link disabled: 
 
 $securePDF.attr('disabled', true);
+
+
+------------------------------
+
+I can apply CSS properties to a DOM element via jquery like that: 
+
+$odd.css('backgroundColor','green');
+
+---------------------------------
+
+
+.addClass('');
+.removeClass('');
+.toggleClass('');
