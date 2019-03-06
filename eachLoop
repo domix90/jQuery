@@ -1,0 +1,7 @@
+
+
+$collection.each(function(index, element){
+
+// do sth with the code
+
+});
