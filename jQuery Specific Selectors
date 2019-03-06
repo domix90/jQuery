@@ -40,3 +40,6 @@ $odd.css('backgroundColor','green');
 .addClass('');
 .removeClass('');
 .toggleClass('');
+
+
+.preventDefault(); - prevents the page from reloading and sending the info to server 
