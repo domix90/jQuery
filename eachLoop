@@ -6,6 +6,14 @@ $collection.each(function(index, element){
 
 });
 
+Given an array named characterList, which .each() loop would console.log the name of each book character?
+
+A	characterList.each(function(index, characterList){ console.log(character); });
+B	characterList.each(function(index, char){ console.log(character); });
+C	characterList.each(function(index, character){ console.log(character); });
+
+
+
 
 Iterating over jQuery and non-jQuery Objects
 https://learn.jquery.com/using-jquery-core/iterating/
